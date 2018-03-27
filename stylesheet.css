@@ -1,0 +1,98 @@
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	overflow-x: hidden;
+}
+body{
+	width: 100%;
+}
+header{
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 height: 40vh;
+}
+header h1{
+	color: blue;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.wnot{
+	position: relative;s
+}
+
+.hnot{
+	position: relative;
+}
+
+.row{
+	clear: both;
+	padding: 0px;
+	margin: 5%;
+}
+
+.col{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child{margin-left: 0;}
+
+.group:before,
+.group:after{content: "";
+display: table;}
+.group:after{clear:both;}
+.group{ zoom:1;}
+
+.six{ width: 49.2% }
+.four{width: 32.26%}
+
+@media(max-width: 1800px){
+	html{
+		font-size: 25px;
+	}
+	body{
+		background-color: yellow;
+		color: red;
+	}
+	header h1{
+		color: orange;
+	}
+
+}
+@media(max-width: 1200px){
+	html{
+		font-size: 15px;
+	}
+	body{
+		background-color: grey;
+		color: blue;
+	}
+	header h1{
+		color: black;
+	}
+
+	.six{
+		width: 100%
+	}
+}
+
+@media(max-width: 800px){
+	html{
+		font-size: 10px;
+	}
+	body{
+		background-color: black;
+		color: white;
+	}
+
+	header h1{
+		color: white;
+	}
+	.six{
+		width: 100%;
+	}
+	.four{ width: 100%; }
+}
